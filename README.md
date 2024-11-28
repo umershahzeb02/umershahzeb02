@@ -9,6 +9,14 @@ In my projects, I combine creativity with technical skills to build efficient, s
 Feel free to explore my repositories, and if you have any questions or want to collaborate, don't hesitate to reach out!
 
 
+
+## 📄 My CV
+
+You can download my CV from the link below:
+
+[Download My CV](https://drive.google.com/file/d/1BJE0-0bUaW1wEXnRkcQylRB6YbTornKH/view?usp=drive_link)
+
+
 ## DevOps Articles
 
 ### 1. [Are We Making DevOps Complicated? The Case of Simplicity in Tooling](https://medium.com/@umershahzeb/are-we-making-devops-complicated-the-case-of-simplicity-in-tooling-54b5878b5d8a)
