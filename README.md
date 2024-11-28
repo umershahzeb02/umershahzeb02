@@ -2,7 +2,7 @@
 
 # Hi there! 👋 I'm Shahzeb Umer
 
-I'm a passionate Software Engineer and Computer Science student, currently pursuing my Bachelor's at NUCES - FAST. I specialize in Full-Stack Development, and DevOps, I'm always excited to dive into new technologies.
+I'm a passionate Software Engineer and Computer Science student, currently pursuing my Bachelor's at NUCES - FAST (_Expected_ 2025). I specialize in Full-Stack Development, and DevOps, I'm always excited to dive into new technologies.
 
 In my projects, I combine creativity with technical skills to build efficient, scalable, and user-friendly applications. I have experience working with a variety of frameworks and tools like React, Next.js, Tailwind CSS, Kubernetes, and AWS, and I'm always learning and experimenting with new concepts.
 
@@ -15,6 +15,13 @@ Feel free to explore my repositories, and if you have any questions or want to c
 You can download my CV from the link below:
 
 [Download My CV](https://drive.google.com/file/d/1BJE0-0bUaW1wEXnRkcQylRB6YbTornKH/view?usp=drive_link)
+
+
+
+## 🚀 Exciting News! 🎉
+
+I will be joining the **Directorate of ICT at AIOU** as a **Web Designer / Front-End Developer**! starting this December.💻✨
+
 
 
 ## DevOps Articles
