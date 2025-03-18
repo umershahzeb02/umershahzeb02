@@ -20,7 +20,7 @@ You can download my CV from the link below:
 
 ## 🚀 Exciting News! 🎉
 
-I will be joining the **Directorate of ICT at AIOU** as a **Web Designer / Front-End Developer**! starting this December.💻✨
+I will be joining the **Directorate of ICT at AIOU** as a **Full Stack Developer**! starting this December.💻✨
 
 
 
