@@ -2,7 +2,7 @@
 
 # Hi there! 👋 I'm Shahzeb Umer
 
-I'm a passionate Software Engineer and Computer Science student, currently pursuing my Bachelor's at NUCES - FAST (_Expected_ 2025). I specialize in Full-Stack Development, and DevOps, I'm always excited to dive into new technologies.
+I'm a passionate Software Engineer and Computer Science student, currently pursuing my Bachelor's at NUCES - FAST (2025). I specialize in Full-Stack Development, and DevOps, I'm always excited to dive into new technologies.
 
 In my projects, I combine creativity with technical skills to build efficient, scalable, and user-friendly applications. I have experience working with a variety of frameworks and tools like React, Next.js, Tailwind CSS, Kubernetes, and AWS, and I'm always learning and experimenting with new concepts.
 
