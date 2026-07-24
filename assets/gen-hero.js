@@ -109,7 +109,7 @@ const pingSvg = hubs.map((i, k) => {
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="t d">
   <title id="t">Shahzeb Umer</title>
-  <desc id="d">Production web applications, end to end. An animated network of nodes and connections.</desc>
+  <desc id="d">The stack follows the problem. An animated network of nodes and connections.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070910"/>
@@ -192,7 +192,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 
     <text class="name" x="62" y="140">Shahzeb Umer</text>
     <rect x="64" y="160" width="132" height="2" rx="1" fill="url(#rule)"/>
-    <text class="role" x="64" y="192">Production web applications, end to end.</text>
+    <text class="role" x="64" y="192">The stack follows the problem.</text>
   </g>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16"
         fill="none" stroke="#ffffff" stroke-opacity="0.08"/>

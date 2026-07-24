@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Shahzeb Umer — production web applications, end to end">
+  <img src="assets/hero.svg" width="100%" alt="Shahzeb Umer — the stack follows the problem">
 </div>
 
 <p align="center">
@@ -18,12 +18,14 @@
 
 <br>
 
-> I build production web applications end to end — Node.js and FastAPI services behind React
-> and Next.js interfaces — with a particular interest in browser internals and the parts of the
-> platform that resist automation.
+> I pick the stack to fit the problem rather than the other way round. So far that has meant
+> browser internals, multimodal AI systems, production platforms at scale, infrastructure, and
+> a fair amount of algorithmic work. The common thread is depth — going as far down as a
+> problem actually requires instead of stopping at the framework.
 
 Currently **Full Stack Developer** at the **Directorate of ICT, Allama Iqbal Open University**,
 shipping public and internal platforms for an institution serving 400,000+ students nationwide.
+Always looking for the next unfamiliar problem.
 
 <br>
 
@@ -31,7 +33,7 @@ shipping public and internal platforms for an institution serving 400,000+ stude
 
 #### [BumbleTap](https://bumbletap.com)
 
-`Chrome extension` &nbsp; [Web Store ↗](https://chromewebstore.google.com/detail/bumbletap/djgihkldjjfolnbkccfophpgflekmhhd) &nbsp; [Engineering blog ↗](https://bumbletap.com/blog)
+`Browser internals` &nbsp; [Web Store ↗](https://chromewebstore.google.com/detail/bumbletap/djgihkldjjfolnbkccfophpgflekmhhd) &nbsp; [Engineering blog ↗](https://bumbletap.com/blog)
 
 Binds arbitrary keystrokes to DOM actions on any website, built from two primitives: single-key
 bindings — element invocation, text entry, sandboxed user JavaScript — and multi-step Auto-Actions
@@ -50,7 +52,7 @@ client-side design — no backend, no telemetry.
 
 #### [Lumen](https://github.com/umershahzeb02/lumen)
 
-`AI video understanding`
+`Multimodal AI` &nbsp; `Retrieval`
 
 Transcribes, summarises, and answers questions about video, using LLM APIs across text, audio, and
 vision. A real-time streaming pipeline over WebSockets emits live progress events, with retry and
@@ -64,7 +66,7 @@ cite the timestamps they came from.
 
 #### Production platforms at AIOU
 
-`Node.js` `Next.js` `PostgreSQL`
+`Platforms at scale`
 
 **[Islamic Research Index ↗](https://iri.aiou.edu.pk)** — a Next.js 14 research-indexing platform
 hosting thousands of academic papers. Query optimisation and caching for page-load performance;
@@ -82,15 +84,30 @@ document storage in cloud object storage.
 
 #### [pdf-to-json](https://github.com/umershahzeb02/pdf-to-json)
 
-`Utility` &nbsp; [Live ↗](https://pdf2json.vercel.app)
+`Developer tooling` &nbsp; [Live ↗](https://pdf2json.vercel.app)
 
 Converts PDF documents into structured JSON for downstream manipulation in web applications.
 
 <br>
 
+## Also exploring
+
+Away from the web stack:
+[genetic-algorithm timetable scheduling](https://github.com/umershahzeb02/Time-Table-Scheduling-with-Genetic-Algo--AI)
+over a search space far too large to brute force,
+[algorithm analysis](https://github.com/umershahzeb02/Analysis-of-Algos-Project) across problem
+classes, a [console game built on hand-rolled data structures](https://github.com/umershahzeb02/Data-Structure-The-Quest-for-the-Crystal-Kingdom),
+[transaction-focused DBMS design](https://github.com/umershahzeb02/Cafe-Management-System-DBMS) on
+MS SQL Server, and smaller Python automation like
+[price monitoring](https://github.com/umershahzeb02/price-monitor-system).
+
+<sub>Coursework and curiosity in roughly equal measure — public because the range is the point.</sub>
+
+<br>
+
 ## Writing
 
-On browser internals, automation, and web architecture — at the
+On browser internals, automation, infrastructure, and web architecture — at the
 [BumbleTap engineering blog](https://bumbletap.com/blog) and on
 [Medium](https://medium.com/@umershahzeb).
 
