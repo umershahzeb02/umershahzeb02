@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Shahzeb Umer — the stack follows the problem">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img src="assets/hero-dark.svg" width="100%" alt="Shahzeb Umer — the stack follows the problem">
+  </picture>
 </div>
 
 <p align="center">
