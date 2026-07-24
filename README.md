@@ -1,47 +1,64 @@
+## Shahzeb Umer
 
+Full-stack engineer based in Islamabad. I build production web applications end to end — Node.js and FastAPI services behind React and Next.js interfaces — with a particular interest in browser internals and the parts of the platform that resist automation.
 
-# Hi there! 👋 I'm Shahzeb Umer
+**Full Stack Developer** at the **Directorate of ICT, Allama Iqbal Open University**, shipping public and internal platforms for an institution serving 400,000+ students nationwide.
 
-I'm a passionate Software Engineer and Computer Science student, currently pursuing my Bachelor's at NUCES - FAST (2025). I specialize in Full-Stack Development, and DevOps, I'm always excited to dive into new technologies.
+---
 
-In my projects, I combine creativity with technical skills to build efficient, scalable, and user-friendly applications. I have experience working with a variety of frameworks and tools like React, Next.js, Tailwind CSS, Kubernetes, and AWS, and I'm always learning and experimenting with new concepts.
+### Selected work
 
-Feel free to explore my repositories, and if you have any questions or want to collaborate, don't hesitate to reach out!
+#### [BumbleTap](https://bumbletap.com) · [Chrome Web Store](https://chromewebstore.google.com/detail/bumbletap/djgihkldjjfolnbkccfophpgflekmhhd) · [Engineering blog](https://bumbletap.com/blog)
 
+A Chrome extension that binds arbitrary keystrokes to DOM actions on any website, built from two primitives: single-key bindings — element invocation, text entry, sandboxed user JavaScript — and multi-step Auto-Actions supporting conditional branching, waits, and variable extraction.
 
+The hard problem is durability. Conventional CSS selectors break the moment a site redeploys, so the element resolver identifies targets by multi-representation consensus and traverses shadow DOM, keeping automations alive across deployments that would invalidate them. Privileged execution is orchestrated across Chrome's isolated, main, and user-script worlds through a cross-world messaging bridge, which buys CORS-exempt requests without giving up a strictly client-side design — no backend, no telemetry.
 
-## 📄 My CV
+<sub>Manifest V3 · JavaScript · Next.js · Cloudflare Workers & R2 · Vitest</sub>
 
-You can download my CV from the link below:
+#### [Lumen](https://github.com/umershahzeb02/lumen) — AI video understanding
 
-[Download My CV](https://drive.google.com/file/d/1BJE0-0bUaW1wEXnRkcQylRB6YbTornKH/view?usp=drive_link)
+Transcribes, summarises, and answers questions about video, using LLM APIs across text, audio, and vision. A real-time streaming pipeline over WebSockets emits live progress events, with retry and structured logging wrapped around every external call. The RAG question-answering path retrieves from a vector store using embedding search and reranking, so answers stay grounded and cite the timestamps they came from.
 
+<sub>Next.js · FastAPI · WebSockets · Gemini & OpenAI-compatible APIs · ChromaDB</sub>
 
+#### Production platforms at AIOU
 
-## 🚀 Exciting News! 🎉
+- **[Islamic Research Index](https://iri.aiou.edu.pk)** — a Next.js 14 research-indexing platform hosting thousands of academic papers. Query optimisation and caching for page-load performance; automated content-management workflows that cut manual indexing effort.
+- **[AIOU Bookstore](https://bookstore.aiou.edu.pk)** — an e-commerce platform with secure payment processing and a modular architecture spanning online sales, POS, warehouse, and notifications, with inventory synchronised between the online store and physical outlets.
+- **HR Management System** *(internal)* — Node.js/Express and Next.js over PostgreSQL, covering attendance, payroll, evaluations, and employee lifecycle, with role-based access control and document storage in cloud object storage.
 
-I will be joining the **Directorate of ICT at AIOU** as a **Full Stack Developer**! starting this December.💻✨
+#### [pdf-to-json](https://github.com/umershahzeb02/pdf-to-json) · [live](https://pdf2json.vercel.app)
 
+Converts PDF documents into structured JSON for downstream manipulation in web applications.
 
+---
 
-## DevOps Articles
+### Writing
 
-### 1. [Are We Making DevOps Complicated? The Case of Simplicity in Tooling](https://medium.com/@umershahzeb/are-we-making-devops-complicated-the-case-of-simplicity-in-tooling-54b5878b5d8a)
-This was in the start of the course. Getting to know alot of technologies overwhemled me and decided to write about that for my first article. In this article, I explore the balance between the complexity and power of modern DevOps tools. While these tools offer flexibility, they can also create tool sprawl, increased overhead, and hinder productivity. The article advocates for a minimalist approach in tooling to streamline DevOps practices, enhance collaboration, and foster continuous improvement.
+I write about browser internals, automation, and web architecture on the [BumbleTap engineering blog](https://bumbletap.com/blog), and on [Medium](https://medium.com/@umershahzeb):
 
-### 2. [Mastering Prometheus: A Comprehensive Guide to Architecture and Configuration](https://medium.com/@umershahzeb/mastering-prometheus-a-comprehensive-guide-to-architecture-and-configuration-3522a852ea41)
-This guide dives deep into the architecture and configuration of Prometheus, a powerful monitoring system for distributed systems. It covers how to configure Prometheus for effective monitoring, alerting, and scaling, ensuring that organizations can maintain healthy system performance and gain valuable insights.
+- [Understanding Terraform](https://medium.com/@umershahzeb/understanding-terraform-a-comprehensive-guide-to-infrastructure-automation-65f741c0762c) — defining, provisioning, and managing cloud resources as code, and what it takes to keep infrastructure consistent across environments.
+- [Mastering Prometheus](https://medium.com/@umershahzeb/mastering-prometheus-a-comprehensive-guide-to-architecture-and-configuration-3522a852ea41) — the architecture and configuration of monitoring for distributed systems, from scrape design through alerting and scaling.
+- [Are We Making DevOps Complicated?](https://medium.com/@umershahzeb/are-we-making-devops-complicated-the-case-of-simplicity-in-tooling-54b5878b5d8a) — a case for minimalism in tooling, and why flexible toolchains so often become sprawl.
 
-### 3. [Understanding Terraform: A Comprehensive Guide to Infrastructure Automation](https://medium.com/@umershahzeb/understanding-terraform-a-comprehensive-guide-to-infrastructure-automation-65f741c0762c)
-This article provides an in-depth look at Terraform, a leading tool for Infrastructure as Code (IaC). It explains how Terraform allows teams to define, provision, and manage cloud resources in a predictable and controlled manner, ensuring a consistent infrastructure across environments and making infrastructure management scalable and maintainable.
+---
 
+### Stack
 
+|  |  |
+| --- | --- |
+| **Languages** | TypeScript, JavaScript, Python, C++, C#, SQL |
+| **Backend** | Node.js, Express, FastAPI, REST APIs, WebSockets |
+| **Frontend** | React, Next.js, React Native, Tailwind CSS |
+| **Data** | PostgreSQL, MySQL, MongoDB, MS SQL Server, ChromaDB |
+| **AI & integration** | OpenAI-compatible & Gemini APIs, RAG, embeddings, reranking |
+| **Infrastructure** | Docker, Kubernetes, AWS, Cloudflare Workers & R2, Nginx, CI/CD |
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/umershahzeb) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/umershahzeb) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@umershahzeb) 
+BS Computer Science, NUCES–FAST (2021–2026).
 
-# 💻 Tech Stack:
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Proto.io](https://img.shields.io/badge/Proto.io-161637?style=for-the-badge&logo=proto.io&logoColor=00e5ff) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=umershahzeb02&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+---
 
+### Elsewhere
+
+[LinkedIn](https://linkedin.com/in/umershahzeb) · [Medium](https://medium.com/@umershahzeb) · [Portfolio](https://umershahzeb02.github.io/my-portfolio/) · <umershahzeb@gmail.com>
