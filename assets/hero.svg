@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Shahzeb Umer</title>
+  <desc id="d">Production web applications, end to end. An animated network of nodes and connections.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070910"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#0a1a2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#22d3ee" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#070910" stop-opacity="0.97"/>
+      <stop offset="0.34" stop-color="#070910" stop-opacity="0.88"/>
+      <stop offset="0.62" stop-color="#070910" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#070910" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.1" cy="1.1" r="1.1" fill="#8fa3c8" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    .es{stroke:#7ba4e0;stroke-opacity:0.24;stroke-width:1.9;stroke-linecap:round}
+    .e{stroke:#9fd0ff;stroke-opacity:0.62;stroke-width:2.6;stroke-linecap:round;
+       stroke-dasharray:3 15;animation-name:flow;animation-timing-function:linear;
+       animation-iteration-count:infinite}
+    @keyframes flow{to{stroke-dashoffset:-72}}
+
+    .n{fill:#cfdcf4;fill-opacity:0.6;animation-name:breathe;
+       animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+    @keyframes breathe{0%,100%{fill-opacity:0.34}50%{fill-opacity:0.9}}
+
+    .hub{fill:#7cc4ff;fill-opacity:0.95}
+    .pk{fill:#8ad8ff;fill-opacity:0.92}
+
+    /* stroke-opacity:0 is the resting state on purpose: where animating the CSS
+       r property is unsupported, the ring stays invisible instead of freezing
+       as a hard halo around every hub. */
+    .ping{fill:none;stroke:#7cc4ff;stroke-width:2;stroke-opacity:0;
+          animation-name:ping;animation-timing-function:cubic-bezier(0,0.5,0.5,1);
+          animation-iteration-count:infinite}
+    @keyframes ping{0%{r:7.6;stroke-opacity:0.6}70%,100%{r:42;stroke-opacity:0}}
+
+    .name{font:600 44px ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+          fill:#f0f4fb;letter-spacing:-0.6px}
+    .role{font:400 15.5px ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+          fill:#93a3bd;letter-spacing:0.1px}
+
+    @media (prefers-reduced-motion:reduce){
+      .e,.n,.ping{animation:none}
+      .n{fill-opacity:0.55}
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+
+    <g>
+    <line class="es" x1="450.8" y1="171.7" x2="502.8" y2="146.3"/><line class="e" x1="450.8" y1="171.7" x2="502.8" y2="146.3" style="animation-duration:3.4s;animation-delay:-0s"/>
+    <line class="es" x1="450.8" y1="171.7" x2="488.3" y2="64.4"/><line class="e" x1="450.8" y1="171.7" x2="488.3" y2="64.4" style="animation-duration:4s;animation-delay:-0.4s"/>
+    <line class="es" x1="488.3" y1="64.4" x2="502.8" y2="146.3"/><line class="e" x1="488.3" y1="64.4" x2="502.8" y2="146.3" style="animation-duration:4.5s;animation-delay:-0.8s"/>
+    <line class="es" x1="488.3" y1="64.4" x2="585.3" y2="99.5"/><line class="e" x1="488.3" y1="64.4" x2="585.3" y2="99.5" style="animation-duration:5s;animation-delay:-1.3s"/>
+    <line class="es" x1="502.8" y1="146.3" x2="585.3" y2="99.5"/><line class="e" x1="502.8" y1="146.3" x2="585.3" y2="99.5" style="animation-duration:5.6s;animation-delay:-1.7s"/>
+    <line class="es" x1="585.3" y1="99.5" x2="624.9" y2="144.2"/><line class="e" x1="585.3" y1="99.5" x2="624.9" y2="144.2" style="animation-duration:6.2s;animation-delay:-2.1s"/>
+    <line class="es" x1="624.9" y1="144.2" x2="666" y2="213.6"/><line class="e" x1="624.9" y1="144.2" x2="666" y2="213.6" style="animation-duration:6.7s;animation-delay:-2.5s"/>
+    <line class="es" x1="722.9" y1="92.9" x2="788.4" y2="118.5"/><line class="e" x1="722.9" y1="92.9" x2="788.4" y2="118.5" style="animation-duration:3.4s;animation-delay:-2.9s"/>
+    <line class="es" x1="722.9" y1="92.9" x2="795" y2="176.1"/><line class="e" x1="722.9" y1="92.9" x2="795" y2="176.1" style="animation-duration:4s;animation-delay:-3.4s"/>
+    <line class="es" x1="788.4" y1="118.5" x2="795" y2="176.1"/><line class="e" x1="788.4" y1="118.5" x2="795" y2="176.1" style="animation-duration:4.5s;animation-delay:-3.8s"/>
+    <line class="es" x1="788.4" y1="118.5" x2="856" y2="30.2"/><line class="e" x1="788.4" y1="118.5" x2="856" y2="30.2" style="animation-duration:5s;animation-delay:-4.2s"/>
+    <line class="es" x1="795" y1="176.1" x2="830.5" y2="271.8"/><line class="e" x1="795" y1="176.1" x2="830.5" y2="271.8" style="animation-duration:5.6s;animation-delay:-0s"/>
+    <line class="es" x1="856" y1="30.2" x2="914.8" y2="27.1"/><line class="e" x1="856" y1="30.2" x2="914.8" y2="27.1" style="animation-duration:6.2s;animation-delay:-0.4s"/>
+    <line class="es" x1="856" y1="30.2" x2="966.2" y2="81.8"/><line class="e" x1="856" y1="30.2" x2="966.2" y2="81.8" style="animation-duration:6.7s;animation-delay:-0.8s"/>
+    <line class="es" x1="830.5" y1="271.8" x2="913.4" y2="195.9"/><line class="e" x1="830.5" y1="271.8" x2="913.4" y2="195.9" style="animation-duration:3.4s;animation-delay:-1.3s"/>
+    <line class="es" x1="914.8" y1="27.1" x2="966.2" y2="81.8"/><line class="e" x1="914.8" y1="27.1" x2="966.2" y2="81.8" style="animation-duration:4s;animation-delay:-1.7s"/>
+    <line class="es" x1="914.8" y1="27.1" x2="940.7" y2="129.5"/><line class="e" x1="914.8" y1="27.1" x2="940.7" y2="129.5" style="animation-duration:4.5s;animation-delay:-2.1s"/>
+    <line class="es" x1="940.7" y1="129.5" x2="966.2" y2="81.8"/><line class="e" x1="940.7" y1="129.5" x2="966.2" y2="81.8" style="animation-duration:5s;animation-delay:-2.5s"/>
+    <line class="es" x1="940.7" y1="129.5" x2="974" y2="191.7"/><line class="e" x1="940.7" y1="129.5" x2="974" y2="191.7" style="animation-duration:5.6s;animation-delay:-2.9s"/>
+    <line class="es" x1="913.4" y1="195.9" x2="974" y2="191.7"/><line class="e" x1="913.4" y1="195.9" x2="974" y2="191.7" style="animation-duration:6.2s;animation-delay:-3.4s"/>
+    <line class="es" x1="913.4" y1="195.9" x2="940.7" y2="129.5"/><line class="e" x1="913.4" y1="195.9" x2="940.7" y2="129.5" style="animation-duration:6.7s;animation-delay:-3.8s"/>
+    <line class="es" x1="1066.2" y1="30.5" x2="1058.6" y2="99.3"/><line class="e" x1="1066.2" y1="30.5" x2="1058.6" y2="99.3" style="animation-duration:3.4s;animation-delay:-4.2s"/>
+    <line class="es" x1="1066.2" y1="30.5" x2="966.2" y2="81.8"/><line class="e" x1="1066.2" y1="30.5" x2="966.2" y2="81.8" style="animation-duration:4s;animation-delay:-0s"/>
+    <line class="es" x1="1058.6" y1="99.3" x2="1067.9" y2="163.6"/><line class="e" x1="1058.6" y1="99.3" x2="1067.9" y2="163.6" style="animation-duration:4.5s;animation-delay:-0.4s"/>
+    <line class="es" x1="1067.9" y1="163.6" x2="1135.4" y2="144"/><line class="e" x1="1067.9" y1="163.6" x2="1135.4" y2="144" style="animation-duration:5s;animation-delay:-0.8s"/>
+    <line class="es" x1="1070.7" y1="247.1" x2="1121.8" y2="219"/><line class="e" x1="1070.7" y1="247.1" x2="1121.8" y2="219" style="animation-duration:5.6s;animation-delay:-1.3s"/>
+    <line class="es" x1="1070.7" y1="247.1" x2="1067.9" y2="163.6"/><line class="e" x1="1070.7" y1="247.1" x2="1067.9" y2="163.6" style="animation-duration:6.2s;animation-delay:-1.7s"/>
+    <line class="es" x1="1135.4" y1="144" x2="1167" y2="81.4"/><line class="e" x1="1135.4" y1="144" x2="1167" y2="81.4" style="animation-duration:6.7s;animation-delay:-2.1s"/>
+    <line class="es" x1="1135.4" y1="144" x2="1121.8" y2="219"/><line class="e" x1="1135.4" y1="144" x2="1121.8" y2="219" style="animation-duration:3.4s;animation-delay:-2.5s"/>
+    <line class="es" x1="1167" y1="81.4" x2="1058.6" y2="99.3"/><line class="e" x1="1167" y1="81.4" x2="1058.6" y2="99.3" style="animation-duration:4s;animation-delay:-2.9s"/>
+    </g>
+    <g>
+    <circle class="ping" cx="488.3" cy="64.4" r="7.6" style="animation-duration:5.5s;animation-delay:-0s"/>
+    <circle class="ping" cx="666" cy="213.6" r="7.6" style="animation-duration:6.4s;animation-delay:-1.7s"/>
+    <circle class="ping" cx="830.5" cy="271.8" r="7.6" style="animation-duration:7.3s;animation-delay:-3.4s"/>
+    <circle class="ping" cx="940.7" cy="129.5" r="7.6" style="animation-duration:8.2s;animation-delay:-5.1s"/>
+    <circle class="ping" cx="1066.2" cy="30.5" r="7.6" style="animation-duration:9.1s;animation-delay:-6.8s"/>
+    </g>
+    <g>
+    <circle class="n" cx="195" cy="201" r="5.2" style="animation-duration:4.2s;animation-delay:-0s"/>
+    <circle class="n" cx="292" cy="43.9" r="4" style="animation-duration:4.9s;animation-delay:-0.5s"/>
+    <circle class="n" cx="450.8" cy="171.7" r="4" style="animation-duration:5.6s;animation-delay:-1s"/>
+    <circle class="n hub" cx="488.3" cy="64.4" r="7.6" style="animation-duration:6.3s;animation-delay:-1.5s"/>
+    <circle class="n" cx="502.8" cy="146.3" r="4" style="animation-duration:7s;animation-delay:-2s"/>
+    <circle class="n" cx="585.3" cy="99.5" r="4" style="animation-duration:7.7s;animation-delay:-2.5s"/>
+    <circle class="n" cx="624.9" cy="144.2" r="5.2" style="animation-duration:4.2s;animation-delay:-3s"/>
+    <circle class="n hub" cx="666" cy="213.6" r="7.6" style="animation-duration:4.9s;animation-delay:-3.5s"/>
+    <circle class="n" cx="722.9" cy="92.9" r="4" style="animation-duration:5.6s;animation-delay:-4s"/>
+    <circle class="n" cx="788.4" cy="118.5" r="5.2" style="animation-duration:6.3s;animation-delay:-0s"/>
+    <circle class="n" cx="795" cy="176.1" r="4" style="animation-duration:7s;animation-delay:-0.5s"/>
+    <circle class="n" cx="856" cy="30.2" r="4" style="animation-duration:7.7s;animation-delay:-1s"/>
+    <circle class="n hub" cx="830.5" cy="271.8" r="7.6" style="animation-duration:4.2s;animation-delay:-1.5s"/>
+    <circle class="n" cx="914.8" cy="27.1" r="4" style="animation-duration:4.9s;animation-delay:-2s"/>
+    <circle class="n hub" cx="940.7" cy="129.5" r="7.6" style="animation-duration:5.6s;animation-delay:-2.5s"/>
+    <circle class="n" cx="913.4" cy="195.9" r="5.2" style="animation-duration:6.3s;animation-delay:-3s"/>
+    <circle class="n" cx="966.2" cy="81.8" r="4" style="animation-duration:7s;animation-delay:-3.5s"/>
+    <circle class="n" cx="974" cy="191.7" r="4" style="animation-duration:7.7s;animation-delay:-4s"/>
+    <circle class="n hub" cx="1066.2" cy="30.5" r="7.6" style="animation-duration:4.2s;animation-delay:-0s"/>
+    <circle class="n" cx="1058.6" cy="99.3" r="4" style="animation-duration:4.9s;animation-delay:-0.5s"/>
+    <circle class="n" cx="1067.9" cy="163.6" r="4" style="animation-duration:5.6s;animation-delay:-1s"/>
+    <circle class="n" cx="1070.7" cy="247.1" r="5.2" style="animation-duration:6.3s;animation-delay:-1.5s"/>
+    <circle class="n" cx="1135.4" cy="144" r="4" style="animation-duration:7s;animation-delay:-2s"/>
+    <circle class="n" cx="1121.8" cy="219" r="4" style="animation-duration:7.7s;animation-delay:-2.5s"/>
+    <circle class="n" cx="1167" cy="81.4" r="5.2" style="animation-duration:4.2s;animation-delay:-3s"/>
+    </g>
+    <g>
+    <circle class="pk" r="3.6"><animateMotion dur="4.6s" begin="-0s" repeatCount="indefinite" path="M450.8,171.7 L488.3,64.4"/></circle>
+    <circle class="pk" r="3.6"><animateMotion dur="5.8s" begin="-0.8s" repeatCount="indefinite" path="M788.4,118.5 L856,30.2"/></circle>
+    <circle class="pk" r="3.6"><animateMotion dur="6.9s" begin="-1.7s" repeatCount="indefinite" path="M830.5,271.8 L913.4,195.9"/></circle>
+    <circle class="pk" r="3.6"><animateMotion dur="8s" begin="-2.5s" repeatCount="indefinite" path="M1167,81.4 L1058.6,99.3"/></circle>
+    </g>
+
+    <rect width="1200" height="300" fill="url(#scrim)"/>
+
+    <text class="name" x="62" y="140">Shahzeb Umer</text>
+    <rect x="64" y="160" width="132" height="2" rx="1" fill="url(#rule)"/>
+    <text class="role" x="64" y="192">Production web applications, end to end.</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16"
+        fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
