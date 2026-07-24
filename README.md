@@ -61,4 +61,4 @@ BS Computer Science, NUCES–FAST (2021–2026).
 
 ### Elsewhere
 
-[LinkedIn](https://linkedin.com/in/umershahzeb) · [Medium](https://medium.com/@umershahzeb) · [Portfolio](https://umershahzeb02.github.io/my-portfolio/) · <umershahzeb@gmail.com>
+[Résumé](https://github.com/umershahzeb02/umershahzeb02/blob/main/Shahzeb-Umer-Resume.pdf) · [LinkedIn](https://linkedin.com/in/umershahzeb) · [Medium](https://medium.com/@umershahzeb) · [Portfolio](https://umershahzeb02.github.io/my-portfolio/) · <umershahzeb@gmail.com>
