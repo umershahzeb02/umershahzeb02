@@ -24,8 +24,7 @@
 
 > I pick the stack to fit the problem rather than the other way round. So far that has meant
 > browser internals, multimodal AI systems, production platforms at scale, infrastructure, and
-> a fair amount of algorithmic work. The common thread is depth — going as far down as a
-> problem actually requires instead of stopping at the framework.
+> a fair amount of algorithmic work. 
 
 Currently **Full Stack Developer** at the **Directorate of ICT, Allama Iqbal Open University**,
 shipping public and internal platforms for an institution serving 400,000+ students nationwide.
