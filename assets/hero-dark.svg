@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
   <title id="t">Shahzeb Umer</title>
-  <desc id="d">The stack follows the problem. An animated network of nodes and connections.</desc>
+  <desc id="d">Simplicity is prerequisite for reliability. An animated network of nodes and connections.</desc>
   <style>
     .es{stroke:#30363d;stroke-opacity:1;stroke-width:1.9;stroke-linecap:round}
     .e{stroke:#58a6ff;stroke-opacity:0.75;stroke-width:2.6;stroke-linecap:round;
@@ -113,5 +113,5 @@
 
   <text class="name" x="62" y="140">Shahzeb Umer</text>
   <rect x="64" y="160" width="132" height="2" rx="1" fill="#58a6ff"/>
-  <text class="role" x="64" y="192">The stack follows the problem.</text>
+  <text class="role" x="64" y="192">Simplicity is prerequisite for reliability.</text>
 </svg>

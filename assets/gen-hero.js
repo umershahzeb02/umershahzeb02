@@ -1,4 +1,16 @@
-/* Generates the animated node-graph hero for the GitHub profile README.
+/* ⚠ OUT OF DATE — DO NOT RUN AS-IS.
+
+   This still emits the original single-file design: gradient background, radial
+   glow, left-hand scrim and a hairline border, all written to one path given as
+   argv[2]. The shipped hero-dark.svg and hero-light.svg are a later, flat
+   two-theme design that paints GitHub's own canvas colour and carries no
+   gradients at all. Running this would overwrite both with the old look.
+
+   Kept for the layout algorithm, which is still the source of the node scatter.
+   If you need to regenerate, port the theme table and the dark/light render
+   split back into it first.
+
+   Generates the animated node-graph hero for the GitHub profile README.
    Deterministic (seeded) so regenerating never reshuffles the layout.
 
    Everything is declarative: GitHub renders README SVGs as <img>, which runs
@@ -109,7 +121,7 @@ const pingSvg = hubs.map((i, k) => {
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="t d">
   <title id="t">Shahzeb Umer</title>
-  <desc id="d">The stack follows the problem. An animated network of nodes and connections.</desc>
+  <desc id="d">Simplicity is prerequisite for reliability. An animated network of nodes and connections.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070910"/>
@@ -192,7 +204,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 
     <text class="name" x="62" y="140">Shahzeb Umer</text>
     <rect x="64" y="160" width="132" height="2" rx="1" fill="url(#rule)"/>
-    <text class="role" x="64" y="192">The stack follows the problem.</text>
+    <text class="role" x="64" y="192">Simplicity is prerequisite for reliability.</text>
   </g>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16"
         fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
