@@ -2,20 +2,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" width="100%" alt="Shahzeb Umer — simplicity is prerequisite for reliability">
+    <img src="assets/hero-dark.svg" width="100%" alt="Shahzeb Umer — “Simplicity is prerequisite for reliability.” — Dijkstra">
   </picture>
 </div>
 
 <p align="center">
-  <a href="https://bumbletap.com"><b>BumbleTap</b></a>
+  <a href="https://umershahzeb.com"><b>umershahzeb.com</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://bumbletap.com">BumbleTap</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/umershahzeb02/umershahzeb02/blob/main/Shahzeb-Umer-Resume.pdf">Résumé</a>
   &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/umershahzeb">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="https://medium.com/@umershahzeb">Medium</a>
-  &nbsp;·&nbsp;
-  <a href="https://umershahzeb02.github.io/my-portfolio/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="mailto:umershahzeb@gmail.com">Email</a>
 </p>
@@ -24,10 +24,12 @@
 
 > I pick the stack to fit the problem rather than the other way round. So far that has meant
 > browser internals, multimodal AI systems, production platforms at scale, infrastructure, and
-> a fair amount of algorithmic work. 
+> a fair amount of algorithmic work. The common thread is depth: going as far down as a problem
+> actually requires instead of stopping at the framework.
 
-Currently **Full Stack Developer** at the **Directorate of ICT, Allama Iqbal Open University**,
-shipping public and internal platforms for an institution serving 400,000+ students nationwide.
+Currently **Software Engineer** at **[Z360](https://z360.biz)**, working remotely on
+[Summit EHR](https://summit-ehr.com), an AI-native health record platform. Before that I shipped
+platforms and solutions at the **Directorate of ICT, Allama Iqbal Open University**.
 Always looking for the next unfamiliar problem.
 
 <br>
@@ -71,17 +73,17 @@ cite the timestamps they came from.
 
 `Platforms at scale`
 
-**[Islamic Research Index ↗](https://iri.aiou.edu.pk)** — a Next.js 14 research-indexing platform
-hosting thousands of academic papers. Query optimisation and caching for page-load performance;
-automated content-management workflows that cut manual indexing effort.
+For a distance-learning institution serving 400,000+ students nationwide.
 
-**[AIOU Bookstore ↗](https://bookstore.aiou.edu.pk)** — an e-commerce platform with secure payment
-processing and a modular architecture spanning online sales, POS, warehouse, and notifications,
-with inventory synchronised between the online store and physical outlets.
+**[HR Management System ↗](https://hrms.aiou.edu.pk)** — attendance, payroll, evaluations and the
+staff lifecycle, with role-based access. Within it, **Bridge**: our own attendance middleware, free
+of the vendor’s licence and lock-in.
 
-**HR Management System** *(internal)* — Node.js/Express and Next.js over PostgreSQL, covering
-attendance, payroll, evaluations, and employee lifecycle, with role-based access control and
-document storage in cloud object storage.
+**[Islamic Research Index ↗](https://iri.aiou.edu.pk)** — a research-indexing platform hosting
+thousands of academic papers.
+
+**[AIOU Bookstore ↗](https://bookstore.aiou.edu.pk)** — an e-commerce platform for online sales,
+POS and warehouse, synced across outlets.
 
 <br>
 
